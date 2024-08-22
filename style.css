@@ -15,7 +15,8 @@
 
 header {
  background-color: gold;
- box-shadow: 3px 3px 5px;
+ box-shadow: 3px 3px 5px black;
+ margin-bottom: 3px;
 }
 
 .header {
@@ -42,3 +43,43 @@ header {
     color: black;
     font-weight: 700;   
 }
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.foto img {
+    width:500px;
+
+}
+
+.text  {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 400px;
+    align-items: center;
+
+}
+
+.text h1 {
+    font-size: 40px;
+    color: white;
+    background-color: #000;
+}
+.text span {
+    color: gold;
+}
+
+section {
+    background-color: antiquewhite;
+}
+
+.text p {
+    font-size: 20px;
+}
+
